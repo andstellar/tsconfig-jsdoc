@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "@tsconfig/strictest/tsconfig.json"
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "declaration": true,
+        "declarationDir": "dist",
+        "declarationMap": true,
+        "emitDeclarationOnly": true,
+        "lib": [
+            "ESNext"
+        ],
+        "moduleResolution": "bundler",
+        "module": "esnext",
+        "skipLibCheck": true,
+        "target": "ESNext",
+    },
+}

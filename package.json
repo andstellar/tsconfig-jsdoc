@@ -1,0 +1,25 @@
+{
+  "name": "tsconfig-jsdoc",
+  "version": "1.0.0",
+  "description": "Strict tsconfig files for use with jsdoc types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andstellar/tsconfig-jsdoc.git"
+  },
+  "files": [
+    "tsconfig.json",
+    "tsconfig.browser.json",
+    "tsconfig.cloudflare.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "strictest",
+    "jsdoc"
+  ],
+  "author": "&tellar Company",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "@tsconfig/strictest": "^2.0.4"
+  }
+}
